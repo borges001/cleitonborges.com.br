@@ -1,5 +1,5 @@
 import next from "next";
-import { AspectRatio, Box, Flex, Image } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 
 export default function HeaderImage (){
@@ -10,10 +10,11 @@ export default function HeaderImage (){
       bgRepeat="no-repeat"
       backgroundSize= 'cover'
       overflow='hidden'
+      h='280'
       >
-        <Box 
-        bgGradient='linear(to-b, rgba(24, 24, 24, 0) 70%, #181818 95%)'
-        h='300'
+      <Box 
+      bgGradient='linear(to-b, rgba(24, 24, 24, 0) 70%, #181818 95%)'
+      h='280'
       />
     </Box>
   )

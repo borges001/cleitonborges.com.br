@@ -25,6 +25,7 @@ export const theme = extendTheme ({
       fontSize: '17px',
       fontWeight: 'light',
       textAlign: 'center',
+      lineHeight: '100%',
     },
     footerText: {
       fontSize: '10px',

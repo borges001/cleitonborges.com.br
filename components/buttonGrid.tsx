@@ -1,20 +1,55 @@
-import { Box, VStack } from "@chakra-ui/react";
+import { Box, VStack, Text, HStack } from "@chakra-ui/react";
 import next from "next";
 
 export default function ButtonGrid (){
   return(
-    <VStack direction={ "column" } spacing='24px' >
-      <Box bg='tomato' w='100%' p={4} color='white'>
-        Bottão 1
-      </Box>
-      <Box bg='red' w='100%' p={4} color='white'>
-        Bottão 2
-      </Box>
-      <Box bg='white' w='100%' p={4} color='white'>
-        Bottão 3
-      </Box>
+    <VStack spacing='19px' display='flow'>
+
+      <HStack 
+      bg='#1C1C1C' 
+      h='85px' 
+      w='364' 
+      p={4} 
+      color='white' 
+      borderRadius='10' 
+      mr='30px'
+      ml='30px'
+      >
+        <Box 
+        h='85px' 
+        w='171px' 
+        bgImage="url('buttonImg.png')" 
+        bgPosition="top"
+        bgRepeat="no-repeat"
+        backgroundSize= 'cover' 
+        overflow='hidden'>
+        </Box>
+        <Text>Máquina de Clientes</Text>
+      </HStack>
+
+
+      <HStack 
+      bg='#1C1C1C' 
+      h='85px' 
+      w='364' 
+      p={4} 
+      color='white' 
+      borderRadius='10' 
+      mr='30px'
+      ml='30px'
+      >
+        <Box 
+        h='85px' 
+        w='171px' 
+        bgImage="url('buttonImg.png')" 
+        bgPosition="top"
+        bgRepeat="no-repeat"
+        backgroundSize= 'cover' 
+        overflow='hidden'>
+        </Box>
+        <Text>Máquina de Clientes</Text>
+      </HStack>
 
     </VStack>
   )
 }
-//Creio que aqui seja o mais dificil

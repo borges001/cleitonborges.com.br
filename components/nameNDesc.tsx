@@ -9,7 +9,7 @@ export default function NameNDesc (){
         Cleiton Borges
       </Text>
       <Text textStyle='bio'>
-        Em Tech desde os 8 anos. <br/> Hoje planejo e executo estratégias de growth marketing.
+        Em Tech desde os 8 anos. <br/> Hoje planejo e executo estratégias de<br/>growth marketing.
       </Text>
     </>
   )
