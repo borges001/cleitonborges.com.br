@@ -1,55 +1,31 @@
-import { Box, VStack, Text, HStack } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import next from "next";
 
 export default function ButtonGrid (){
   return(
-    <VStack spacing='19px' display='flow'>
+<>
+  <Box 
+  bg='#1C1C1C' 
+  h='85px'
+  borderRadius='10px' 
+  mr='20px'
+  ml='20px'
 
-      <HStack 
-      bg='#1C1C1C' 
-      h='85px' 
-      w='364' 
-      p={4} 
-      color='white' 
-      borderRadius='10' 
-      mr='30px'
-      ml='30px'
-      >
-        <Box 
-        h='85px' 
-        w='171px' 
-        bgImage="url('buttonImg.png')" 
-        bgPosition="top"
-        bgRepeat="no-repeat"
-        backgroundSize= 'cover' 
-        overflow='hidden'>
-        </Box>
-        <Text>Máquina de Clientes</Text>
-      </HStack>
-
-
-      <HStack 
-      bg='#1C1C1C' 
-      h='85px' 
-      w='364' 
-      p={4} 
-      color='white' 
-      borderRadius='10' 
-      mr='30px'
-      ml='30px'
-      >
-        <Box 
-        h='85px' 
-        w='171px' 
-        bgImage="url('buttonImg.png')" 
-        bgPosition="top"
-        bgRepeat="no-repeat"
-        backgroundSize= 'cover' 
-        overflow='hidden'>
-        </Box>
-        <Text>Máquina de Clientes</Text>
-      </HStack>
-
-    </VStack>
-  )
+  >
+    <Box
+    borderRadius='10px' 
+    bg='white'
+    bgImage="url('buttonImg.png')" 
+    bgPosition="center"
+    bgRepeat="no-repeat"
+    backgroundSize= 'contain'
+    h='85px'
+    maxW='170px'
+    >
+      <Box bgGradient='linear(to-r, rgba(28, 28, 28, 0) 50%, #1C1C1C 90%)' h='85px' maxW='170px'></Box>
+    </Box>
+    <Text>Máquina de VEndas</Text>
+  </Box>
+</>
+)
 }
