@@ -1,11 +1,19 @@
 import next from "next";
-import { Box, Image } from "@chakra-ui/react";
+import { AspectRatio, Box, Image } from "@chakra-ui/react";
 
 
 export default function HeaderImage (){
   return(
-    <Box>
-       <Image src='user.jpg' alt='Cleiton Borges' />
-    </Box>
+      <Box 
+   
+      h='312'
+      bgGradient='linear(to-t, green.200, pink.500)'
+      bgImage="url('user.jpg')" 
+      bgPosition="center"
+      bgRepeat="no-repeat"
+      backgroundSize= 'cover'
+      >
+
+      </Box>
   )
 }
