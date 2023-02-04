@@ -1,6 +1,10 @@
 import Head from 'next/head'
-
 import { Inter } from '@next/font/google'
+import HeaderImage from '@/components/headerImage'
+import NameNDesc from '@/components/nameNDesc'
+import ButtonGrid from '@/components/buttonGrid'
+import SocialLinks from '@/components/socialLinks'
+import Footer from '@/components/footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +18,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1> To on na Vercel</h1>
+        <HeaderImage/>
+        <NameNDesc/>
+        <ButtonGrid/>
+        <SocialLinks/>
+        <Footer/>
       </main>
     </>
   )
