@@ -9,20 +9,27 @@ export const theme = extendTheme ({
     global: {
       // styles for the `body`
       body: {
-        bg: '181818',
+        bg: '#181818',
       },
     },
   },
   textStyles: {
-    h1: {
-      fontSize: '35',
+    userName: {
+      marginTop:'-12',
+      fontSize: '35px',
       fontWeight: 'extrabold',
       textAlign: 'center',
     },
-    desc: {
-      fontSize: '17',
+    bio: {
+      mb: '21',
+      fontSize: '17px',
       fontWeight: 'light',
       textAlign: 'center',
-    }
+    },
+    footerText: {
+      fontSize: '10px',
+      fontWeight: 'light',
+      textAlign: 'center',
+    },
   }
 })

@@ -1,25 +1,17 @@
 import { Box, HStack } from "@chakra-ui/react";
 import next from "next";
+import { FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
+import { AiOutlineMail } from 'react-icons/ai'
+
 
 export default function SocialLinks (){
   return(
-    <HStack spacing='10px'>
-      <Box w='40px' h='40px' bg='green.800'>
-        Whatsapp
-      </Box>
-      <Box w='40px' h='40px' bg='purple.800'>
-        Insta
-      </Box>
-      <Box w='40px' h='40px' bg='gray.800'>
-        Email
-      </Box>
-      <Box w='40px' h='40px' bg='blue.800'>
-        Twitter
-      </Box>
-      <Box w='40px' h='40px' bg='red.800'>
-        Youtube
-      </Box>
-
+    <HStack spacing='15px' justify='center'mt='4' mb='2'>
+      <Box as={ FaWhatsapp } w='40px' h='40px'/>
+      <Box as={ FaInstagram } w='40px' h='40px'/>
+      <Box as={ AiOutlineMail } w='40px' h='40px'/>
+      <Box as={ FaTwitter } w='40px' h='40px'/>
+      <Box as={ FaYoutube } w='40px' h='40px'/>
     </HStack>
   )
 }

@@ -5,10 +5,10 @@ import { Text } from "@chakra-ui/react";
 export default function NameNDesc (){
   return(
     <>
-      <Text textStyle='h1'>
+      <Text textStyle='userName'>
         Cleiton Borges
       </Text>
-      <Text textStyle='desc'>
+      <Text textStyle='bio'>
         Em Tech desde os 8 anos. <br/> Hoje planejo e executo estratégias de growth marketing.
       </Text>
     </>
