@@ -39,6 +39,7 @@ export const theme = extendTheme ({
       fontWeight: 'bold',
       textAlign: 'right',
       letterSpacing:'2px',
+      textShadow: '2px 2px 8px #000',
     },
   }
 })

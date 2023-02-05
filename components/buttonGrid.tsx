@@ -25,7 +25,7 @@ export default function ButtonGrid (){
         align='center'
         justify='end'
         >
-          Máquina de Vendas
+        Máquina de Vendas
         </Flex>
      
       </Flex>
@@ -38,7 +38,7 @@ export default function ButtonGrid (){
       mr='20px' ml='20px' 
       pr='2' 
 
-      bgImage="url('buttonImg.png')" 
+      bgImage="url('button2.png')" 
       bgPosition="start"
       bgRepeat="no-repeat"
       backgroundSize= 'contain'
@@ -51,7 +51,7 @@ export default function ButtonGrid (){
         align='center'
         justify='end'
         >
-          Máquina de Vendas
+          Software on Demand
         </Flex>
      
       </Flex>
@@ -64,7 +64,7 @@ export default function ButtonGrid (){
       mr='20px' ml='20px' 
       pr='2' 
 
-      bgImage="url('buttonImg.png')" 
+      bgImage="url('button3.png')" 
       bgPosition="start"
       bgRepeat="no-repeat"
       backgroundSize= 'contain'
@@ -77,7 +77,7 @@ export default function ButtonGrid (){
         align='center'
         justify='end'
         >
-          Máquina de Vendas
+          Como Aprendi Inglês
         </Flex>
      
       </Flex>
