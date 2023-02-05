@@ -34,5 +34,11 @@ export const theme = extendTheme ({
       fontWeight: 'light',
       textAlign: 'center',
     },
+    button1: {
+      fontSize: '22px',
+      fontWeight: 'bold',
+      textAlign: 'right',
+      letterSpacing:'2px',
+    },
   }
 })
