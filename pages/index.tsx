@@ -1,12 +1,9 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import HeaderImage from '@/components/headerImage'
-import NameNDesc from '@/components/nameNDesc'
-import ButtonGrid from '@/components/buttonGrid'
-import SocialLinks from '@/components/socialLinks'
-import Footer from '@/components/footer'
+import { Box, Center, Flex } from "@chakra-ui/react";
+import ButtonGrid from '../components/buttonGrid';
+import Footer from '../components/footer'
+import Header from '../components/header';
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -17,13 +14,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <HeaderImage/>
-        <NameNDesc/>
-        <ButtonGrid/>
-        <SocialLinks/>
-        <Footer/>
-      </main>
+  
+      <Flex as='section' w='100vw' h='100vh' direction='column' align='center'>
+        <Box minW='390px' maxW='390px'>
+          <Header/>
+          <ButtonGrid/>
+          <Footer/>
+        </Box>
+    </Flex>
+      
     </>
   )
 }

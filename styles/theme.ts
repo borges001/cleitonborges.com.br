@@ -10,12 +10,14 @@ export const theme = extendTheme ({
       // styles for the `body`
       body: {
         bg: '#181818',
+
+        maxWidth: '400',
       },
     },
   },
   textStyles: {
     userName: {
-      marginTop:'-12',
+      marginTop:'-9',
       fontSize: '35px',
       fontWeight: 'extrabold',
       textAlign: 'center',
