@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Box, Center, Flex } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import ButtonGrid from '../components/buttonGrid';
 import Footer from '../components/footer'
 import Header from '../components/header';
@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
   
       <Flex as='section' w='100vw' h='100vh' direction='column' align='center'>
-        <Box minW='390px' maxW='390px'>
+        <Box minW='400px' maxW='430px'>
           <Header/>
           <ButtonGrid/>
           <Footer/>

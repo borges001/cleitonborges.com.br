@@ -16,15 +16,17 @@ export default function Header (){
     >
       <Box 
       bgGradient='linear(to-b, rgba(24, 24, 24, 0) 70%, #181818 95%)'
-      h='280px' w='390px'
+      h='280px' w='410px'
       />
     </Box>
+
     <Text textStyle='userName'>
-        Cleiton Borges
-      </Text>
-      <Text textStyle='bio'>
-        Em Tech desde os 8 anos. <br/> Hoje planejo e executo estratégias de<br/>growth marketing.
-      </Text>
+      Cleiton Borges
+    </Text>
+
+    <Text textStyle='bio'>
+      Em Tech desde os 8 anos. <br/> Hoje planejo e executo estratégias de<br/>growth marketing.
+    </Text>
   </> 
   )
 }
